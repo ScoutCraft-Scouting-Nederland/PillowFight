@@ -1,0 +1,25 @@
+name: ${project.name}
+version: ${project.version}
+main: nl.scoutcraft.pillowfight.PillowFight
+api-version: 1.16
+description: ${project.description}
+authors: [ Acixsi, Daniel12321 ]
+website: https://scoutcraft.nl
+depend: [ EagleServer, HolographicDisplays ]
+
+commands:
+  admin:
+    description: Admin Command
+    usage: /admin <subcommand>
+    permission: scoutcraft.admin
+  metrics:
+    aliases: stats
+    description: Gets a player's metrics
+    usage: /metrics
+    permission: scoutcraft.speler
+
+permissions:
+  scoutcraft.admin:
+    default: op
+  scoutcraft.speler:
+    default: true

@@ -1,0 +1,18 @@
+CONFIGURATED: false
+HUB_SERVER: TentRed
+MIN_PLAYERS: 6
+MAX_PLAYERS: 12
+POWERUP_INTERVAL: 10
+VELOCITY: 2.5
+RESPAWN_INVULNERABLE_SECONDS: 6
+RULEBOOK:
+  - "&4&lPillowFight&r &6&lV2&r\n\n&lDoel van het spel:&r\nSla de tegenstanders van het platform en blijf het langste leven.\n\n&lInstructies:&r\n- Gebruik je wol om te slaan.\n- Activeer power-ups met rechtermuisknop."
+  - "&nStemmen&r\n&lMaps&r\nStem op een van de drie maps.\n\n&lPower-ups&r\nSpeel je met power-ups of ga je voor classic?\n\n&lGamemode&r\nKies tussen alleen, met z'n tweeën of met 4 mensen per team."
+  - "&nPower-ups&r\n&lExtra Leven&r\n+1 leven!\n&lKussen Explosie&r\nBoem! Iedereen om je heen weg\n&lDouble Jump&r\nSpring 2x\n&lSupersprong&r\nVlieg een stukje weg\n&lSuperkussen&r\nSla extra hard\n&lOnaantastbaarheid&r\nNiemand kan je raken"
+LOBBY:
+  world: lobby
+  x: 8.5
+  y: 8.0
+  z: 8.5
+  yaw: -90
+  pitch: 0
